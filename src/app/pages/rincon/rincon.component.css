@@ -1,0 +1,35 @@
+
+.container {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin: 0;
+   }
+a {
+  text-align: center;
+  background-color: black;
+  font-size: 1.2em;
+
+}
+img {
+  width: 250px;
+  height: 250px;
+}
+
+.formulario{ text-align: center;
+
+}
+#equipos{
+  display: inline-block;
+}
+
+section{
+  width: 15%;
+  float: left;
+  }
+aside{
+  width: 85%;
+  float: right;
+}
+
+
+

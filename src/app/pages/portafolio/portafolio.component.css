@@ -1,0 +1,26 @@
+#slider{
+  display: block;
+  background: none;
+  text-align: center;
+  width: 75%;
+  float: left;
+
+}
+
+
+#tabla{
+  display: block;
+  background:rgb(156, 156, 167);
+  width: 25%;
+  float: right;
+
+}
+h2{
+  text-align: center;
+}
+
+
+
+
+
+

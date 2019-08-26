@@ -1,0 +1,23 @@
+
+  <div class="m-4 p-4 border border-white rounded bg-primary ">
+
+    <div class="ae-grid au-xs-ta-center au-mb-5">
+
+      <div *ngFor="let equipo of infoService.equipo"  class="animated fadeIn ae-grid__item item-lg-4 ae-kappa au-mb-3">
+        <img [src]="equipo.url" alt="" class="au-mb-3">
+        <h5 class="ae-u-bolder au-mt-2">{{ equipo.nombre }}</h5>
+        <h6 class="ae-u-bolder au-mt-2">{{ equipo.frase }}</h6>
+        <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">{{ equipo.importante }}</p>
+        <a target="_blank" href="https://twitter.com/{{ equipo.twitter }}" class="ae-u-bolder au-underline">{{ equipo.twitter }}</a>
+      </div>
+
+</div>
+
+
+
+
+
+
+
+
+

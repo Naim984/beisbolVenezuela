@@ -1,0 +1,43 @@
+<header class="ae-container-fluid ae-container-fluid--full rk-header black">
+    <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
+    <label for="mobile-menu">
+      <svg>
+        <use xlink:href="assets/img/symbols.svg#bar"></use>
+      </svg>
+      <svg>
+        <use xlink:href="assets/img/symbols.svg#bar"></use>
+      </svg>
+      <svg>
+        <use xlink:href="assets/img/symbols.svg#bar"></use>
+      </svg>
+    </label>
+    <div class="ae-container-fluid rk-topbar">
+      <h1 class="rk-logo">
+        <a routerLink="home">{{ _servicio.info.titulo }}</a>
+        <img src="assets/img/bandera.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+      </h1>
+      <nav class="rk-navigation">
+        <ul class="rk-menu">
+          <li routerLinkActive="active"  class="rk-menu__item ">
+            <a routerLink="home" class="rk-menu__link">Inicio</a>
+          </li>
+
+         <li routerLinkActive="active" class="rk-menu__item ">
+            <a routerLink="about" class="rk-menu__link">Equipos</a>
+          </li>
+          <li routerLinkActive="active" class="rk-menu__item">
+              <a routerLink="mascotas" class="rk-menu__link">Mascotas</a>
+            </li>
+            <li routerLinkActive="active" class="rk-menu__item">
+                <a href="http://museodebeisbol.com/" class="rk-menu__link">Museo de Beisbol</a>
+              </li>
+              <li routerLinkActive="active" class="rk-menu__item">
+                  <a routerLink="rincon" class="rk-menu__link">Rincon del fanatico</a>
+                </li>
+                <li routerLinkActive="active" class="rk-menu__item">
+                  <a routerLink="search" class="rk-menu__link">Beisbol Caribe</a>
+                </li>
+          </ul>
+      </nav>
+    </div>
+  </header>

@@ -31,5 +31,19 @@ aside{
   float: right;
 }
 
+img[_ngcontent-c6] {
+  width: 150;
+  height: 100px;
+}
+
+img[_ngcontent-c3] {
+  width: 150px;
+  height: 100px;
+}
+
+h5{
+  text-align: center;
+}
+
 
 

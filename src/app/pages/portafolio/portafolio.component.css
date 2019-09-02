@@ -10,12 +10,12 @@
 
 #tabla{
   display: block;
-  background:rgb(156, 156, 167);
+  background-color:rgb(156, 156, 167);
   width: 25%;
   float: right;
 
 }
-h2{
+h5{
   text-align: center;
 }
 

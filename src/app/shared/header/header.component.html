@@ -1,43 +1,42 @@
-<header class="ae-container-fluid ae-container-fluid--full rk-header black">
-    <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
-    <label for="mobile-menu">
-      <svg>
-        <use xlink:href="assets/img/symbols.svg#bar"></use>
-      </svg>
-      <svg>
-        <use xlink:href="assets/img/symbols.svg#bar"></use>
-      </svg>
-      <svg>
-        <use xlink:href="assets/img/symbols.svg#bar"></use>
-      </svg>
-    </label>
-    <div class="ae-container-fluid rk-topbar">
-      <h1 class="rk-logo">
-        <a routerLink="home">{{ _servicio.info.titulo }}</a>
+<!-- SECCION NAVEGACIÓN-->
+<nav class="navbar navbar-principal bg-light navbar-expand-sm fixed-top">
+    <div class="container">
         <img src="assets/img/bandera.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-      </h1>
-      <nav class="rk-navigation">
-        <ul class="rk-menu">
-          <li routerLinkActive="active"  class="rk-menu__item ">
-            <a routerLink="home" class="rk-menu__link">Inicio</a>
-          </li>
-
-         <li routerLinkActive="active" class="rk-menu__item ">
-            <a routerLink="about" class="rk-menu__link">Equipos</a>
-          </li>
-          <li routerLinkActive="active" class="rk-menu__item">
-              <a routerLink="mascotas" class="rk-menu__link">Mascotas</a>
+      <a href="#" class="navbar-brand">
+        <strong>Beisbol Profesional de Venezuela</strong>
+      </a>
+           <button type="button" class="navbar-toggler" data-toggle="collapse"
+      data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
+      aria-label="Desplegar menú de navegación">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <br><br><br>
+    <div class="collapse navbar-collapse" id="menu-principal">
+      <br>
+      <ul class="navbar-nav ml-auto">
+          <li routerLinkActive="active"  class="navbar-brand">
+              <a routerLink="home" class="rk-menu__link">Inicio</a>
             </li>
-            <li routerLinkActive="active" class="rk-menu__item">
-                <a href="http://museodebeisbol.com/" class="rk-menu__link">Museo de Beisbol</a>
+
+           <li routerLinkActive="active" class="navbar-brand">
+              <a routerLink="about" class="rk-menu__link">Equipos</a>
+            </li>
+            <li routerLinkActive="active" class="navbar-brand">
+                <a routerLink="mascotas" class="rk-menu__link">Mascotas</a>
               </li>
-              <li routerLinkActive="active" class="rk-menu__item">
-                  <a routerLink="rincon" class="rk-menu__link">Rincon del fanatico</a>
+              <li routerLinkActive="active" class="navbar-brand">
+                  <a href="http://museodebeisbol.com/" class="rk-menu__link">Museo de Beisbol</a>
                 </li>
-                <li routerLinkActive="active" class="rk-menu__item">
-                  <a routerLink="search" class="rk-menu__link">Beisbol Caribe</a>
-                </li>
-          </ul>
-      </nav>
+                <li routerLinkActive="active" class="navbar-brand">
+                    <a routerLink="rincon" class="rk-menu__link">Rincon del fanatico</a>
+                  </li>
+                  <li routerLinkActive="active" class="navbar-brand">
+                      <a routerLink="search" class="rk-menu__link">Beisbol en el Caribe</a>
+                    </li>
+      </ul>
     </div>
-  </header>
+  </div>
+</nav>
+
+
+
